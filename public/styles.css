@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(226, 226, 226, 255);
+
+}
+
+.title {
+    font-family: "Playwrite BE VLG", cursive;
+    margin-bottom: 1em;
+}
+
+.description {
+    font-family: "Noto Sans", sans-serif;
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+}
+
+input,
+textarea {
+    border: solid #b5aeae 0.5px;
+    border-radius: 25px;
+    margin-bottom: 1em;
+}
+
+.myButton {
+    background-color: #ccc8c9;
+    border-radius: 28px;
+    border: 1px solid #9e9697;
+    display: inline-block;
+    cursor: pointer;
+
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #d4c8c8;
+}
+
+.myButton:hover {
+    background-color: #b5aeae;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+.nav-link:hover {
+    color: rgb(193, 184, 184);
+}
+
+
+
+.centered-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2em;
+
+}
+
+.centered-list a {
+    margin: 5px 0;
+}
